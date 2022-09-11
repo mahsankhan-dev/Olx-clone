@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+.Container {
+    background-color: #fff;
+    width: 350px;
+    height: 520px;
+    border-radius: 8px;
+    margin: 100px auto;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+     rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+     rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.my-Form {
+    position: relative;
+    top: 20px;
+}
+
+.Container img{
+    margin: auto;
+   display: flex;
+   position: relative;
+   top: 20px;
+}
+
+.my-Form h4 {
+    text-align: center;   
+    font-weight: 500; 
+    color: #002f34;
+}
+
+.myh4 h4 {
+    color: #002f34;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    margin-bottom: 20px;
+}
+
+.my-Form input {
+    margin-left: 60px;
+    width: 250px;
+    padding: 8px 10px;
+    margin-top: 20px;
+    outline: none;
+    border-radius: 4px;
+    border: 2px solid #002f34;
+}
+
+.my-Form input:focus {
+    border: 2px solid #3a77ff;
+}
+
+.register1{
+    margin: auto;
+    display: flex;
+    position: relative;
+    left: 10px;
+    border-radius: 3px;
+    margin-top: 30px;
+    width: 250px;
+    padding: 10px;
+    justify-content: center;
+    outline: none;
+    border: 1px solid #002f34;
+    background-color: #002f34;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.myImage {
+    width: 50px;
+    margin: 30px auto;
+    display: flex;
+}

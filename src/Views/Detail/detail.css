@@ -1,0 +1,239 @@
+.header_detail {
+    width: 100%;
+}
+
+/* .back_Arow {
+    margin-left: -40px;
+    cursor: pointer;
+} */
+
+.content_detail {
+    display: flex;
+    margin: 40px 60px 40px 60px;
+    max-width: 1280px;
+}
+
+.content_1 {
+    width: calc(100% - 15.5rem)
+}
+
+.img_ad {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.gallery {
+    background-color: #fff;
+    border: 1px solid rgba(0, 47, 52, .36);
+    border-radius: 4px;
+    width: 100%;
+    overflow: hidden;
+    justify-content: center;
+    justify-items: center;
+    padding: auto;
+    text-align: center;
+    align-items: center;
+    /* display: flex; */
+
+}
+
+.back_img {
+    width: 100%;
+    height: 25rem;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+ 
+
+}
+
+.info {
+    background-color: #fff;
+    border: 1px solid rgba(0, 47, 52, .36);
+    border-radius: 4px;
+    padding: 1.6rem;
+    margin-top: 0.8rem;
+    width: 92%;
+    overflow: hidden;
+}
+
+.details {
+    padding-bottom: 1.6rem;
+    border-bottom: 0.1rem solid rgba(0, 47, 52, .2);
+    margin-bottom: 1.6rem;
+}
+
+.info_title {
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: #013f46;
+
+}
+
+.info_detail {
+    margin-top: 0.8rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexix {
+    flex-basis: 50%;
+}
+
+.flexix_1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0.8rem;
+}
+
+.flexix_1 span {
+    flex-basis: 50%;
+}
+
+.price_info {
+    color: rgba(0, 47, 52, .64);
+
+}
+
+.content_2 {
+    padding-left: 1.6rem;
+    width: 43.5rem;
+}
+
+.title_detail {
+    background-color: #fff;
+    border: 1px solid rgba(0, 47, 52, .36);
+    border-radius: 4px;
+    padding: 1.6rem;
+    margin-top: 0.8rem;
+    width: 90%;
+    overflow: hidden;
+}
+
+.title_text {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    /* -ms-flex-direction: column; */
+    flex-direction: column;
+    display: flex;
+}
+
+.price_icons {
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+
+.price_title {
+    font-size: 2.388rem;
+    line-height: 2.2rem;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    font-weight: 700;
+    color: #013f46;
+
+}
+
+.share_heart {
+    -webkit-box-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.share_div {
+
+    border-radius: 50%;
+    padding: 0.3rem;
+    cursor: pointer;
+}
+.share_div:hover {
+    background-color: #cefffd;
+}
+
+p {
+    margin: 0;
+    font-size: 1.3rem;
+    color: rgba(0, 47, 52, .64);
+    letter-spacing: normal;
+    word-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.seller {
+    font-size: 1.4rem;
+    color: #013f46;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+
+}
+.user{
+    display: flex;
+}
+
+.user img {
+    border-radius: 50%;
+}
+.guest{
+    margin-left: 10px;
+    margin-top: 15px;
+    color: #013f46;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+
+
+}
+.chat_div{
+    width: 100%;
+    margin-top: 10px;
+}
+.chat_div button{
+    width: 100%;
+    color: #fff;
+    background-color: #002f34;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    height: 48px;
+    max-height: 100%;
+    padding: 0 1rem;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+.map{
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-image: url('https://www.olx.com.pk/assets/mapPlaceholder_noinline.af3a4b7300a65b66f974eed7023840ac.svg');
+    width: 100%;
+    height: 140px;
+    cursor: pointer;
+    background-position: fixed;
+    background-size: cover;
+
+}
+.map:hover{
+    padding: 0.5px;
+    position: relative;
+    box-shadow: 3px 6px 6px 3px #cecdcd;
+
+}
+.load_img{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 250px;
+}
